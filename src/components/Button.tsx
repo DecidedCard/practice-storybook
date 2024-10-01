@@ -47,7 +47,8 @@ const Button = ({
     (color === "primary" && "bg-primary-1 text-white") ||
     (color === "secondary" && "bg-secondary-1 text-white");
 
-  const buttonClass = `flex items-center justify-center px-3 py-1 rounded-lg w-full ${height} ${col}`;
+  const buttonClass =
+    "flex items-center justify-center px-3 py-1 rounded-lg w-full";
 
   return (
     <button
