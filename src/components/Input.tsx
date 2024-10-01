@@ -12,15 +12,15 @@ const Input = ({
   onChange,
   placeholder,
 }: {
-  size?: string;
+  size?: "big" | "small";
   helperText?: string;
-  color?: string;
+  color?: "black" | "gray2" | "success" | "error";
   maxLength?: number;
   name?: string;
-  pattern?: string;
+  pattern?: RegExp;
   type: string;
-  value?: any;
-  onChange?: any;
+  value?: string;
+  onChange?: () => void;
   placeholder?: string;
 }) => {
   const height = size === "big" ? "h-14" : "h-9";
@@ -43,7 +43,7 @@ const Input = ({
         type={type}
         value={value}
         name={name}
-        pattern={pattern}
+        pattern={`${pattern}`}
         onChange={onChange}
         maxLength={maxLength}
         placeholder={placeholder}
