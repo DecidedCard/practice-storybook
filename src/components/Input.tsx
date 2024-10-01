@@ -18,7 +18,7 @@ const Input = ({
   maxLength?: number;
   name?: string;
   pattern?: RegExp;
-  type: string;
+  type: "text" | "password";
   value?: string;
   onChange?: () => void;
   placeholder?: string;

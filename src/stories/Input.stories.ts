@@ -9,8 +9,16 @@ const meta = {
     layout: "centered",
   },
   tags: ["autodocs"],
-  argTypes: {},
-  args: { color: "black", size: "big" },
+  argTypes: {
+    placeholder: { control: "text" },
+    helperText: { control: "text" },
+    maxLength: { control: "number" },
+  },
+  args: {
+    color: "black",
+    size: "big",
+    placeholder: "input",
+  },
 } satisfies Meta<typeof Input>;
 
 export default meta;
