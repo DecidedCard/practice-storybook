@@ -41,56 +41,56 @@ export const Secondary: Story = {
   },
 };
 
-export const gray2: Story = {
+export const Gray2: Story = {
   args: {
     color: "gray2",
     text: "Gray-2 button",
   },
 };
 
-export const gray3: Story = {
+export const Gray3: Story = {
   args: {
     color: "gray3",
     text: "Gray-3 button",
   },
 };
 
-export const black: Story = {
+export const Black: Story = {
   args: {
     color: "black",
     text: "Black button",
   },
 };
 
-export const sm: Story = {
+export const Sm: Story = {
   args: {
     size: "sm",
     text: "sm button",
   },
 };
 
-export const md: Story = {
+export const Md: Story = {
   args: {
     size: "md",
     text: "md button",
   },
 };
 
-export const bg: Story = {
+export const Big: Story = {
   args: {
-    size: "bg",
+    size: "big",
     text: "bg button",
   },
 };
 
-export const extra: Story = {
+export const Extra: Story = {
   args: {
     size: "extra",
     text: "Extra button",
   },
 };
 
-export const border: Story = {
+export const Border: Story = {
   args: {
     color: "primary",
     border: true,

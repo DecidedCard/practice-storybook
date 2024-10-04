@@ -15,6 +15,7 @@ const meta = {
     maxLength: { control: "number" },
   },
   args: {
+    type: "text",
     color: "black",
     size: "big",
     placeholder: "input",
@@ -25,45 +26,45 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const black: Story = {
+export const Black: Story = {
   args: {
     color: "black",
     placeholder: "Black input",
   },
 };
 
-export const gray2: Story = {
+export const Gray2: Story = {
   args: {
     color: "gray2",
     placeholder: "Gray-2 input",
   },
 };
 
-export const success: Story = {
+export const Success: Story = {
   args: {
     color: "success",
     placeholder: "Success input",
   },
 };
 
-export const error: Story = {
+export const Error: Story = {
   args: {
     color: "error",
     placeholder: "Error input",
   },
 };
 
-export const helperText: Story = {
+export const HelperText: Story = {
   args: {
     placeholder: "input",
     helperText: "helper text",
   },
 };
 
-export const errorHelperText: Story = {
+export const ErrorHelperText: Story = {
   args: {
     color: "error",
-    placeHolder: "error input",
+    placeholder: "Error input",
     helperText: "error helperText",
   },
 };
